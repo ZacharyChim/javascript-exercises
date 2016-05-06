@@ -24,5 +24,4 @@ function picLink() {
   } else {
     pic.className = "hide";
   }
-  console.log(pic.className);
 }
