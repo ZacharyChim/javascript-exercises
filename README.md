@@ -17,10 +17,10 @@
 * inputs[i].addEventListener("keypress", itemKeypress);
 * input.focus();
 * input.**setSelectionRange(0, input.value.length)**;
-* this.__previousSibling__.innerHTML = this.value;
-* this._parentNode_.className = "";
-* function itemKeypress(*event*) {
-  if (*event.which* === 13) {
-    updateItem.*call(this)*;
+* this.**previousSibling**.innerHTML = this.value;
+* this.**parentNode**.className = "";
+* function itemKeypress(**event**) {
+  if (**event.which** === 13) {
+    updateItem.**call(this)**;
   }
 }
